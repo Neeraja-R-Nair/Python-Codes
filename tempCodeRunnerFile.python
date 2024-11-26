@@ -1,0 +1,13 @@
+"""def print_fibonacci(m):
+    m1,m2=0,1
+    for i in range(m):
+        print(m1,end="")
+        m1,m2=m2,m1+m2
+m=int(input("enter a limit"))
+print("fibonacci series",print_fibonacci(m))"""
+
+from math import prod
+num_list=[1,2,3,4,5]
+print(prod(num_list))
+
+ 
